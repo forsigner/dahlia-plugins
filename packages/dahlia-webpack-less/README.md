@@ -1,21 +1,21 @@
-# dahlia-webpack-antd
+# dahlia-webpack-less
 
 ## Installation
 
 ```sh
-yarn add dahlia-webpack-override dahlia-webpack-antd
+yarn add dahlia-webpack-override dahlia-webpack-less
 ```
 
 ## Usage
 
 ```js
 const override = require('dahlia-webpack-override')
-const antd = require('dahlia-webpack-antd')
+const less = require('dahlia-webpack-less')
 
 module.exports = {
   webpack(config, env) {
     return override(config, env).pipe(
-      antd(),
+      less(),
     )
   },
 }

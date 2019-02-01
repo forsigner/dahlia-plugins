@@ -1,8 +1,8 @@
-export default function override(config: any) {
+export default function override(config: any, env: string) {
   return {
     pipe: (...args: any[]) => {
       for (const fn of args) {
-        config = fn(config)
+        config = fn(config, env)
       }
       return config
     },

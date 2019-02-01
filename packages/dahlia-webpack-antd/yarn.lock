@@ -682,6 +682,13 @@ cssstyle@^1.0.0:
   dependencies:
     cssom "0.3.x"
 
+customize-cra@^0.2.11:
+  version "0.2.11"
+  resolved "http://registry.npm.taobao.org/customize-cra/download/customize-cra-0.2.11.tgz#eda1cad4e16c958c577fa43c9776ea372e82671d"
+  integrity sha1-7aHK1OFslYxXf6Q8l3bqNy6CZx0=
+  dependencies:
+    lodash.flow "^3.5.0"
+
 dashdash@^1.12.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
@@ -2206,6 +2213,11 @@ locate-path@^2.0.0:
   dependencies:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
+
+lodash.flow@^3.5.0:
+  version "3.5.0"
+  resolved "http://registry.npm.taobao.org/lodash.flow/download/lodash.flow-3.5.0.tgz#87bf40292b8cf83e4e8ce1a3ae4209e20071675a"
+  integrity sha1-h79AKSuM+D5OjOGjrkIJ4gBxZ1o=
 
 lodash.sortby@^4.7.0:
   version "4.7.0"

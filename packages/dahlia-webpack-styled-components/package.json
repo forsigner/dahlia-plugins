@@ -35,9 +35,7 @@
   },
   "homepage": "https://github.com/forsigner/dahlia-webpack-override/blob/master/packages/dahlia-webpack-override-email/README.md",
   "dependencies": {
-    "customize-cra": "^0.2.11",
-    "util-is-email": "^1.0.0",
-    "util-result": "^1.0.0"
+    "customize-cra": "^0.2.11"
   },
   "devDependencies": {
     "@types/jest": "^23.3.12",

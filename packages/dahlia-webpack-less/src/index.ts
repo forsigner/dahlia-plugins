@@ -1,4 +1,4 @@
-const less = loaderOptions => config => {
+const less = options => config => {
   const mode = process.env.NODE_ENV === 'development' ? 'dev' : 'prod'
 
   // Need these for production mode, which are copied from react-scripts
@@ -9,7 +9,7 @@ const less = loaderOptions => config => {
   const lessRegex = /\.less$/
   const lessModuleRegex = /\.module\.less$/
   const localIdentName =
-    loaderOptions.localIdentName || '[path][name]__[local]--[hash:base64:5]'
+    options.localIdentName || '[path][name]__[local]--[hash:base64:5]'
 
   const getLessLoader = cssOptions => {
     return [
@@ -46,14 +46,7 @@ const less = loaderOptions => config => {
       },
       {
         loader: require.resolve('less-loader'),
-        options: Object.assign(loaderOptions, {
-          modifyVars: {
-            // '@primary-color': 'black',
-            'primary-color': 'black',
-            'link-color': '#1DA57A',
-            'border-radius-base': '10px',
-          },
-          javascriptEnabled: true,
+        options: Object.assign(options, {
           source: shouldUseSourceMap,
         }),
       },

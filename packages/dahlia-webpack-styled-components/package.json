@@ -1,0 +1,51 @@
+{
+  "name": "dahlia-webpack-styled-components",
+  "version": "0.1.0",
+  "description": "dahlia webpack less plugin",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "clean": "rimraf  dist/*",
+    "build": "npm run clean && rollup -c",
+    "build:watch": "npm run clean && rollup -c -w",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/",
+      "/.history/"
+    ]
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/forsigner/dahlia-webpack-override.git"
+  },
+  "author": "forsigner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forsigner/dahlia-webpack-override/issues"
+  },
+  "homepage": "https://github.com/forsigner/dahlia-webpack-override/blob/master/packages/dahlia-webpack-override-email/README.md",
+  "dependencies": {
+    "util-is-email": "^1.0.0",
+    "util-result": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.12",
+    "jest": "^23.6.0",
+    "rimraf": "^2.6.3",
+    "rollup": "^1.0.2",
+    "rollup-plugin-auto-external": "^2.0.0",
+    "rollup-plugin-typescript2": "^0.18.1",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.2"
+  }
+}

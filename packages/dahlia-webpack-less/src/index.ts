@@ -1,6 +1,6 @@
 import { addLessLoader } from 'customize-cra'
 
-const less = options => config => {
+const less = (options?: any) => config => {
   return addLessLoader(options)(config)
 }
 

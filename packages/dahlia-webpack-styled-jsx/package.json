@@ -33,7 +33,7 @@
   "bugs": {
     "url": "https://github.com/forsigner/dahlia-webpack-override/issues"
   },
-  "homepage": "https://github.com/forsigner/dahlia-webpack-override/blob/master/packages/dahlia-webpack-override-email/README.md",
+  "homepage": "https://github.com/forsigner/dahlia-webpack-override/blob/master/packages/dahlia-webpack-styled-jsx/README.md",
   "dependencies": {
     "customize-cra": "^0.2.11"
   },

@@ -1,10 +1,12 @@
 import { addBabelPlugin } from 'customize-cra'
 
-const styledComponents = () => (config, env) => {
+const styledComponents = (options?: any) => (config, env) => {
   if (env !== 'development') {
     return config
   }
-  const newConfig = addBabelPlugin('babel-plugin-styled-components')(config)
+
+  const plugin = ['babel-plugin-styled-components', options]
+  const newConfig = addBabelPlugin(plugin)(config)
   return newConfig
 }
 

@@ -1,7 +1,7 @@
 import { addBabelPlugin } from 'customize-cra'
 
-const antd = options => config => {
-  const { style = 'css' } = options
+const antd = (options?: any) => config => {
+  const { style = true } = options
   const newConfig = addBabelPlugin([
     'import',
     {

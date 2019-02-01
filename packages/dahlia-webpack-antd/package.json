@@ -1,6 +1,6 @@
 {
   "name": "dahlia-webpack-antd",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Email validator for dahlia-webpack-override",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

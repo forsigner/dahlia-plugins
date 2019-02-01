@@ -1,7 +1,12 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "npmClient": "yarn",
-  "version": "independent"
+  "version": "independent",
+  "command": {
+    "publish": {
+      "allowBranch": "master",
+      "conventionalCommits": true,
+      "message": "chore(release): updated release notes and package versions"
+    }
+  }
 }

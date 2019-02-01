@@ -11,11 +11,14 @@
     "test:watch": "lerna run --parallel --stream test:watch",
     "coveralls": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "bootstrap": "lerna bootstrap",
-    "publish": "lerna publish"
+    "publish": "lerna publish",
+    "prepublish": "npm run build"
+
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "jest": {
@@ -55,8 +58,8 @@
   },
   "homepage": "https://github.com/forsigner/dahlia-webpack-override#README",
   "devDependencies": {
-    "@commitlint/cli": "^7.4.0",
-    "@commitlint/config-conventional": "^7.3.1",
+    "@commitlint/cli": "^7.5.0",
+    "@commitlint/config-conventional": "^7.5.0",
     "@types/fetch-mock": "^7.2.2",
     "@types/jest": "^23.3.13",
     "coveralls": "^3.0.2",
@@ -67,12 +70,12 @@
     "prettier": "^1.16.3",
     "rimraf": "^2.6.3",
     "rollup": "^1.1.2",
-    "rollup-plugin-typescript2": "^0.18.0",
+    "rollup-plugin-typescript2": "^0.19.2",
     "ts-jest": "^23.10.5",
     "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.17.0",
     "tslint-eslint-rules": "^5.4.0",
     "tslint-plugin-prettier": "^2.0.1",
-    "typescript": "^3.2.4"
+    "typescript": "^3.3.1"
   }
 }

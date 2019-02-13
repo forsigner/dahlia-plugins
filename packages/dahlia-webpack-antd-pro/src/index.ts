@@ -1,7 +1,7 @@
 import { addBabelPlugin } from 'customize-cra'
 
 const antdPro = (options?: any) => config => {
-  const { style = true } = options
+  const { style = true } = options || {}
   const newConfig = addBabelPlugin([
     'import',
     {
@@ -10,6 +10,7 @@ const antdPro = (options?: any) => config => {
       style,
       camel2DashComponentName: false,
     },
+    'ant-design-pro',
   ])(config)
   return newConfig
 }

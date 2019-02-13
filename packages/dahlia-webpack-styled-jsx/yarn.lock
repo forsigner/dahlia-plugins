@@ -1111,10 +1111,10 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
-fs-extra@7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-7.0.0.tgz#8cc3f47ce07ef7b3593a11b9fb245f7e34c041d6"
-  integrity sha512-EglNDLRpmaTWiD/qraZn6HREAEAHJcJOmxNEYwq6xeMKnVMAy3GUcFB+wXt2C6k4CNvB/mP1y/U3dzvKKj5OtQ==
+fs-extra@7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-7.0.1.tgz#4f189c44aa123b895f722804f55ea23eadc348e9"
+  integrity sha512-YJDaCJZEnBmcbw13fvdAM9AwNOJwOzrE4pqMqBq5nFiEqXUqHwlK4B+3pUw6JNvfSPtX05xFHtYy/1ni01eGCw==
   dependencies:
     graceful-fs "^4.1.2"
     jsonfile "^4.0.0"
@@ -3073,12 +3073,12 @@ rollup-plugin-auto-external@^2.0.0:
     safe-resolve "^1.0.0"
     semver "^5.5.0"
 
-rollup-plugin-typescript2@^0.18.1:
-  version "0.18.1"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-typescript2/-/rollup-plugin-typescript2-0.18.1.tgz#921865828080a254c088c6bc181ca654e5ef73c6"
-  integrity sha512-aR2m5NCCAUV/KpcKgCWX6Giy8rTko9z92b5t0NX9eZyjOftCvcdDFa1C9Ze/9yp590hnRymr5hG0O9SAXi1oUg==
+rollup-plugin-typescript2@^0.19.2:
+  version "0.19.2"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-typescript2/-/rollup-plugin-typescript2-0.19.2.tgz#87d9c799cd6e02efbedbba25af12753a1e92b6c2"
+  integrity sha512-DRG7SaYX0QzBIz6rII5nm1UkiceS95r8mJjujugybyIueNF3auvzGTHMK62O7As/0q5RHjXsOguWOUv+KJKLFA==
   dependencies:
-    fs-extra "7.0.0"
+    fs-extra "7.0.1"
     resolve "1.8.1"
     rollup-pluginutils "2.3.3"
     tslib "1.9.3"
@@ -3632,16 +3632,6 @@ util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
-
-util-is-email@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/util-is-email/-/util-is-email-1.0.0.tgz#f87bfcdb90bb9aa89dc7b536ef2d45355a856fb0"
-  integrity sha512-B0LA2V+kDd8uoz9RkWDphlxvs/7f+KAAA/yR4u4WkODjEiX5HiS3UVtgpqeq+bhjAu5KdwLccQrp0w8tmg17YA==
-
-util-result@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/util-result/-/util-result-1.0.0.tgz#e0886f7faaa34a14f5e89e6d7268e8a3999c7b11"
-  integrity sha512-E63f+HNinAyB4SnAPF5WAgyw4x8K62dmWkT7lv9vuACx3KZUBSKMcqVlFaHUj6jXMexGrB0ICwzVaIASnCzl/Q==
 
 util.promisify@^1.0.0:
   version "1.0.0"

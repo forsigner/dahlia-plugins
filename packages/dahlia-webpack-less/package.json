@@ -1,6 +1,6 @@
 {
   "name": "dahlia-webpack-less",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "dahlia webpack less plugin",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

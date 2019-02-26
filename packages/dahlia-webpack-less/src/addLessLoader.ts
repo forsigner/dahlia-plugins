@@ -1,8 +1,9 @@
+import fs from 'fs'
 import path from 'path'
 
-const baseDir = path.join(__dirname, '..', '..')
+const projectDir = path.resolve(fs.realpathSync(process.cwd()))
 const reactScriptsPaths = path.join(
-  baseDir,
+  projectDir,
   'node_modules',
   'react-scripts',
   'config',

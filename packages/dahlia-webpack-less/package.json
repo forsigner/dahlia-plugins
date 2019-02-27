@@ -35,18 +35,18 @@
   },
   "homepage": "https://github.com/forsigner/dahlia-webpack-override/blob/master/packages/dahlia-webpack-less/README.md",
   "dependencies": {
-    "customize-cra": "^0.2.11",
+    "customize-cra": "^0.2.12",
     "less": "^3.9.0",
     "less-loader": "^4.1.0"
   },
   "devDependencies": {
-    "@types/jest": "^23.3.12",
-    "jest": "^23.6.0",
+    "@types/jest": "^24.0.9",
+    "jest": "^24.1.0",
     "rimraf": "^2.6.3",
-    "rollup": "^1.0.2",
+    "rollup": "^1.3.0",
     "rollup-plugin-auto-external": "^2.0.0",
-    "rollup-plugin-typescript2": "^0.19.2",
-    "ts-jest": "^23.10.5",
-    "typescript": "^3.2.2"
+    "rollup-plugin-typescript2": "^0.19.3",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.3.3333"
   }
 }

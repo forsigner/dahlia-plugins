@@ -1,6 +1,6 @@
 {
   "name": "dahlia-styled-jsx",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "dahlia styled-jsx plugin",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

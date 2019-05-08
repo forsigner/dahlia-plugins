@@ -1,6 +1,6 @@
 {
   "name": "dahlia-alias",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "dahlia webpack alias plugin",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

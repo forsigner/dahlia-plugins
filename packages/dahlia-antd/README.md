@@ -1,28 +1,42 @@
-# dahlia-plugins
+# dahlia-antd
 
 ## Installation
 
 ```sh
-yarn add dahlia-less dahlia-antd
+yarn add dahlia-antd
 ```
 
 ## Usage
 
 ```js
-import less from 'dahlia-less'
 import antd from 'dahlia-antd'
+
+export default {
+  plugins: [antd()],
+}
+```
+
+## Customize Ant Design Theme
+
+to modify the default Ant Design theme:
+
+```js
+import antd from 'dahlia-antd'
+import less from 'dahlia-less'
 
 export default {
   plugins: [
     less({
       modifyVars: {
-        'primary-color': 'red',
+        'primary-color': 'black',
         'link-color': '#1DA57A',
         'border-radius-base': '10px',
       },
       javascriptEnabled: true,
     }),
-    antd(),
+    antd({
+      style: true,
+    }),
   ],
 }
 ```

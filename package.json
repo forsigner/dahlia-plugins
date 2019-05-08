@@ -1,6 +1,6 @@
 {
-  "name": "dahlia-webpack-override",
-  "description": "Override ",
+  "name": "dahlia-plugins",
+  "description": "Plugins to custom dahlia config",
   "scripts": {
     "build": "lerna run --parallel --stream build",
     "build:watch": "lerna run --parallel --stream build:watch",
@@ -47,14 +47,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/forsigner/dahlia-webpack-override.git"
+    "url": "git+ssh://git@github.com/forsigner/dahlia-plugins.git"
   },
   "author": "forsigner",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/forsigner/dahlia-webpack-override/issues"
+    "url": "https://github.com/forsigner/dahlia-plugins/issues"
   },
-  "homepage": "https://github.com/forsigner/dahlia-webpack-override#README",
+  "homepage": "https://github.com/forsigner/dahlia-plugins#README",
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",

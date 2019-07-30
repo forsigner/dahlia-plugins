@@ -13,3 +13,4 @@ lerna-debug.log
 *.swp
 
 dist/
+yarn.lock
